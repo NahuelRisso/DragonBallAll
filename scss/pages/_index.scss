@@ -11,6 +11,8 @@ header{
        
     }
     iframe{
+        width: 15%;
+        height: 80px;
         margin-top: 2%;
     }
 .articulo-uno-index{
@@ -82,7 +84,7 @@ footer{
 header{
     @media only screen and (max-width:576px){
         background-image: url(../assets/img/banner2.jpg);
-        height: 1005px;
+        height: 1117px;
         background-position-x: center;
     }
         h1{
@@ -90,6 +92,12 @@ header{
             margin-top: 600px;     
         }
        
+}
+iframe{
+    @media only screen and (max-width:576px){
+        width: 45%;
+    margin-top: 0%;
+    }
 }
 .articulo-uno-index{
     @media only screen and (max-width:576px){

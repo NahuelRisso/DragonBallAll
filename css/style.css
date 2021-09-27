@@ -72,6 +72,8 @@ header {
   height: 520px;
 }
 iframe {
+  width: 15%;
+  height: 80px;
   margin-top: 2%;
 }
 
@@ -134,13 +136,20 @@ footer section div a img {
 @media only screen and (max-width: 576px) {
   header {
     background-image: url(../assets/img/banner2.jpg);
-    height: 1005px;
+    height: 1117px;
     background-position-x: center;
   }
 }
 header h1 {
   font-size: 6rem;
   margin-top: 600px;
+}
+
+@media only screen and (max-width: 576px) {
+  iframe {
+    width: 45%;
+    margin-top: 0%;
+  }
 }
 
 @media only screen and (max-width: 576px) {
