@@ -1,0 +1,53 @@
+/*Background de main*/
+.container-musica{
+    background-image: url(../assets/img/chino4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*Fin Background de main*/
+
+/*redireccion a sub paginas*/
+.img-musica-direccion{
+    width: 50%;
+    margin:5% 0% 10% 20%;
+}
+/*fin de redireccion a sub paginas*/
+/*Img Opening y Ending*/
+#opening{
+    display: flex;
+    justify-content: center;
+    img{
+        margin: 15% 0%;
+    }
+}
+#ending{
+    display: flex;
+    justify-content: center;
+    img{
+        margin: 15% 0%;
+    }
+}
+/*Fin Img Opening y Ending*/
+
+/*P y Videos*/
+.conteiner-musica{
+    section{
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p{
+                @extend %pMusica;
+                text-align: center;
+                margin-top: 15%;
+            }
+            iframe{
+                margin-bottom: 5%;
+            }
+        }
+    }
+}
+/*Fin de P y Videos*/
+
+

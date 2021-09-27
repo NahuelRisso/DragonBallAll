@@ -1,0 +1,65 @@
+.container-videojuegos{
+     background-image: url(../assets/img/fondo4.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position-x: center;
+    article{
+        section{
+            .div-top-videojuegos{
+                 margin: 5% 2% 0% 2%;
+                a{
+                 border-radius: 100%;
+                 color: #ff0800;
+                 background-color: #008cd061;
+                 font-size: 3rem;
+                 text-decoration: none;
+                 padding: 10% 10%;
+                }
+            }
+        }
+    }
+    #collapseFour{
+        .card-body{
+        display: flex;
+        align-items: center;
+        }
+    }
+    #collapseSix{
+        .card-body{
+        display: flex;
+        align-items: center;
+        }
+    }
+    #collapseTwentyNine{
+            .card-body{
+            display: flex;
+            align-items: center;
+            }
+    }
+    #collapseSixtyThree{
+            .card-body{
+            display: flex;
+            align-items: center;
+            }
+    }
+    #collapseSeventy{
+            .card-body{
+            display: flex;
+            align-items: center;
+            }
+    }
+    #collapseSeventyFive{
+            .card-body{
+            display: flex;
+            align-items: center;
+            }
+    }
+    .Videojuegos-acordeon-img{
+        width: 35%;
+        height: 500px;
+    }
+    .card-body{
+            display: flex;
+            align-items: center;
+    }
+}

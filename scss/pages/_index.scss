@@ -1,0 +1,137 @@
+body{
+    background-color: #000000;
+}
+header{
+    background-image: url(../assets/img/banner.jpg);
+    background-size: cover;
+    height: 520px;
+        h1{
+            @extend %h1;           
+        }
+       
+    }
+    iframe{
+        margin-top: 2%;
+    }
+.articulo-uno-index{
+    background-image: url(../assets/img/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    section{
+        display: flex;
+        h2{
+            @extend %h2;
+            text-align: center;
+        }
+        p{
+            @extend %p;
+            margin-left: 1%;
+        }
+    }
+}
+.articulo-dos-index{ 
+    section{
+        h2{
+            @extend %h2;
+            text-align: center;
+        } 
+        .card{
+            margin: 10% 0%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 28rem;
+            height: 660px;
+            .card-img-1{
+                width: 55%;
+            }
+            .card-img-2{
+                width: 100%;
+            }
+            .card-img-3{
+                width: 74%;
+            }
+            .card-img-4{
+                width: 100%;
+            }
+        } 
+    }
+}
+footer{
+    background-color: #000000!important ;
+    section{
+        display: flex;
+        justify-content: space-between;
+        div{
+            a{
+                @extend %p;
+                .i-footer{
+                    margin-left: 17%;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+/* MediasQuery Movile */ 
+header{
+    @media only screen and (max-width:576px){
+        background-image: url(../assets/img/banner2.jpg);
+        height: 1005px;
+        background-position-x: center;
+    }
+        h1{
+            font-size: 6rem; 
+            margin-top: 600px;     
+        }
+       
+}
+.articulo-uno-index{
+    @media only screen and (max-width:576px){
+    background-position-x: right;
+        section{
+            h2{
+                font-size: 4rem;
+             }
+            p{
+                font-size: 2rem;
+                color: #18ccd7;
+            }
+        }
+    }
+}
+.articulo-dos-index{ 
+    @media only screen and (max-width:576px){
+    section{
+        h2{
+            font-size: 4rem;
+        } 
+        .card{
+            width: auto;
+            height: auto;
+        } 
+    }
+    }
+}
+footer{
+    @media only screen and (max-width:576px){
+    section{
+        div{
+            a{
+                font-size: 2rem;
+                .i-footer{
+                    margin: 0%;
+                }
+                img{
+                    width: 15%;
+                }
+            }
+        }
+    }
+    }
+}

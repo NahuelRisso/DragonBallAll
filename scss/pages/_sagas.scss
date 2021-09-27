@@ -1,0 +1,145 @@
+/*Background de main*/
+main{
+    overflow: hidden;
+}
+.container-sagas{
+    background-image: url(../assets/img/fondo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+/*Fin Background de main*/
+h3{
+    @extend%h2;
+    color: #ff0800;
+    text-decoration: underline;
+    margin-top: 5%;
+    text-align: center;
+}   
+/*Redirecion a subpaginas*/
+.article-redireccion{
+    section{
+        align-items: center;
+        margin-top: 5%;
+        div{
+            a{
+                img{
+                    width: 50%;
+                    margin-left: 20%;
+                }
+            }
+        }
+    }
+}
+/*Fin Redirecion a subpaginas */
+
+/*Arrow*/
+.arrow-up{
+    section{
+        div{
+            display: flex;
+            justify-content: flex-end;
+            a{
+                position: fixed;
+                top: 85%;
+                img{
+                    width: 100px;
+                    margin-right: 10px;
+                    background-color: #a23a1b8f;
+                    border-radius: 30%;
+                }
+            }
+        }
+    }
+}
+/*Fin Arrow*/
+
+/*carrucel*/
+.div-contenedor-carrucel{
+    display: flex;
+    justify-content: center;
+    .carousel{
+    width: 70%;
+    .carousel-inner{
+        display: flex;
+        justify-content: space-around;
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .img-card-vertical{
+                width: 60%;
+            }
+            img{
+                width: 100%
+            }
+        }
+    }
+}
+}
+.carousel-control-prev-icon{
+    background-color: #000000;
+}
+.carousel-control-next-icon{
+    background-color: #000000;
+}
+.carousel-indicators{
+    li{
+        background-color: #000000;
+    }
+}
+/*Fin Carrucel*/
+
+/*Imagenes Principales de Sagas*/
+.saga-img-sagas{
+    display: flex;
+    justify-content: center;
+}
+/* Fin de Imagenes Principales de Sagas*/ 
+
+/*Tablas*/
+ table{
+    border: solid 3px #008cd0;
+    width: 98%;
+    border-collapse: collapse;
+    margin: 3% 1% 0% 1%;
+    background-color: #ffffffa8;
+}
+ tr{
+    border: solid 3px #008cd0;
+}
+th{
+    border: solid 3px #008cd0;
+    text-align: center;
+    font-family: 'DragonBallText';
+    color: #008cd0;
+    font-size: 2.7rem;
+    letter-spacing: 7px;
+    height: 125px;
+ }
+td{
+    border: solid 3px #008cd0;
+    text-align: center;
+    font-family: 'DragonBallText';
+    color: #008cd0;
+    font-size: 2.7rem;
+    letter-spacing: 7px;
+    height: 125px;
+}
+/*Fin de Tablas*/  
+
+/*Todos los logos Dragon ball*/
+.sagas-db{
+    section{
+        div{
+            display: flex;
+            justify-content: center;
+            .img-logo-db{
+                width: 35%;
+                margin: 10% 1%;
+            }
+        }
+    }
+}
+/*Fin de Todos los logos Dragon ball*/

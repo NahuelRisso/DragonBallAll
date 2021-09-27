@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+@font-face{
+    font-family: "dragonBallTitle";
+    src: url(../assets/fonts/Saiyan-Sans.ttf);
+}
+@font-face{
+    font-family: "dragonBallH";
+    src: url(../assets/fonts/Saiyan-Sans\ Left\ Oblique.ttf);
+}
+@font-face{
+    font-family: "dragonBallText";
+    src: url(../assets/fonts/Saiyan-Sans\ Right\ Oblique.ttf);
+}
+@import"extends";
+@import"pages/index";
+@import"nav";
+@import"footer";
+@import"pages/sagas";
+@import"pages/musica";
+@import"pages/videojuegos";
+@import"pages/personajes";

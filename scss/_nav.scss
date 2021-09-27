@@ -1,0 +1,75 @@
+header{
+    .bg-primary {
+        background-color: #007bff00!important;
+    }
+    nav{
+        a{
+            .img-logo{
+                width: 230px;
+            }
+        }
+        div{
+            ul{
+                li{
+                    margin: 0% 7%;
+                    a{
+                        @extend %aNav;
+                        &:hover{
+                                color: #ff0800!important;
+                        }
+                    }
+                    .dropdown-menu{
+                        background-color: #0000ff00!important;
+                        &:hover{
+                            background-color: #0000ff00!important;
+                        }
+                        .dropdown-item{
+                            @extend %a2Nav;
+                            &:hover{
+                                background-color: #0000ff00!important;
+                                color: #ff0800!important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* MediasQuery Movile */ 
+header{
+    @media only screen and (max-width:576px){
+        nav{
+            a{
+                .img-logo{
+                    width: 147px;
+                }
+            }
+            div{
+                ul{
+                    li{
+                        a{
+
+                        }
+                        .dropdown-menu{
+                        }
+                        .dropdown-item{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.navbar-dark .navbar-toggler {
+    @media only screen and (max-width:576px){
+         border-color: #008dd1; 
+    }    
+}
+.bg-dark {
+    @media only screen and (max-width:576px){
+        background-color: #343a4073!important;
+    }
+
+}
