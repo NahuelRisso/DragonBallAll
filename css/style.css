@@ -201,6 +201,10 @@ header nav div ul li .dropdown-menu .dropdown-item:hover {
   color: #ff0800 !important;
 }
 
+.bg-dark {
+  background-color: #343a4000 !important;
+}
+
 /* MediasQuery Movile */
 @media only screen and (max-width: 576px) {
   header nav a .img-logo {
