@@ -147,7 +147,7 @@ header h1 {
 
 @media only screen and (max-width: 576px) {
   iframe {
-    width: 45%;
+    width: 55%;
     margin-top: 0%;
   }
 }
@@ -218,6 +218,12 @@ header nav div ul li .dropdown-menu .dropdown-item:hover {
 @media only screen and (max-width: 576px) {
   header nav a .img-logo {
     width: 147px;
+  }
+  header nav div ul li a {
+    font-size: 2.5rem;
+  }
+  header nav div ul li .dropdown-item {
+    font-size: 2rem !important;
   }
 }
 
