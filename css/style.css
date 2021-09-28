@@ -98,33 +98,29 @@ header {
 /* MediasQuery Movile */
 @media only screen and (max-width: 768px) {
   h1 {
-    font-size: 5rem;
+    font-size: 5.5rem;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .articulo-uno-index {
-    background-image: url(../assets/img/fondo2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-x: center;
+    background-position-x: right;
   }
   .articulo-uno-index section {
     display: flex;
   }
   .articulo-uno-index section h2 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
   .articulo-uno-index section p {
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-align: center;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .articulo-dos-index section h2 {
-    font-size: 4rem;
+    font-size: 5rem;
     text-align: center;
   }
   .articulo-dos-index section .card {
@@ -211,8 +207,8 @@ header section div nav .dropdown-item:hover {
     padding-left: 0% !important;
   }
   header section div nav a .nav-img-logo {
-    width: 150px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
   }
   header section div nav .dropdown-item {
     color: #ff0800;
