@@ -1,12 +1,11 @@
 %h1{
             font-family: 'DragonBalltitle';
-            font-size: 8rem;
+            font-size: 7rem;
             background: #ccc;
-            background: linear-gradient(to right, #ff0800, #ff0800, #ff7b00,#ff7b00,#ff0800);
+            background: linear-gradient(to right, #ff0800, #ff7b00, #ff7b00,#ff7b00,#ff0800);
             -webkit-text-fill-color: transparent;
             background-clip: text;
             -webkit-background-clip: text;
-            margin-top: 2%;
 }
 %h2{
     font-family: 'DragonBalltitle';
@@ -20,7 +19,7 @@
 }
 %p{
     font-family: 'DragonBallText';
-    font-size: 2.5rem;
+    font-size: 3rem;
     color:#008cd0;
 }
 %pMusica{
@@ -28,13 +27,4 @@
     font-size: 2.5rem;
     color: #008cd0;
 }
-%aNav{
-    font-family: 'DragonBallH';
-    font-size: 3.7rem;
-    color: #008cd0!important;
-}
-%a2Nav{
-    font-family: 'DragonBallH';
-    font-size: 3rem;
-    color: #008cd0!important;
-}
+

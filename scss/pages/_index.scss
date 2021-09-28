@@ -4,17 +4,12 @@ body{
 header{
     background-image: url(../assets/img/banner.jpg);
     background-size: cover;
-    height: 520px;
-        h1{
-            @extend %h1;           
-        }
-       
-    }
-    iframe{
-        width: 15%;
-        height: 80px;
-        margin-top: 2%;
-    }
+    background-position-x: center;
+    height: 660px;
+}
+h1{
+    @extend %h1;       
+}
 .articulo-uno-index{
     background-image: url(../assets/img/fondo2.jpg);
     background-size: cover;
@@ -72,74 +67,7 @@ footer{
                 .i-footer{
                     margin-left: 17%;
                 }
-                img{
-                    width: 100%;
-                }
             }
         }
-    }
-}
-
-/* MediasQuery Movile */ 
-header{
-    @media only screen and (max-width:576px){
-        background-image: url(../assets/img/banner2.jpg);
-        height: 1117px;
-        background-position-x: center;
-    }
-        h1{
-            font-size: 6rem; 
-            margin-top: 600px;     
-        }
-       
-}
-iframe{
-    @media only screen and (max-width:576px){
-        width: 55%;
-    margin-top: 0%;
-    }
-}
-.articulo-uno-index{
-    @media only screen and (max-width:576px){
-    background-position-x: right;
-        section{
-            h2{
-                font-size: 4rem;
-             }
-            p{
-                font-size: 2rem;
-                color: #18ccd7;
-            }
-        }
-    }
-}
-.articulo-dos-index{ 
-    @media only screen and (max-width:576px){
-    section{
-        h2{
-            font-size: 4rem;
-        } 
-        .card{
-            width: auto;
-            height: auto;
-        } 
-    }
-    }
-}
-footer{
-    @media only screen and (max-width:576px){
-    section{
-        div{
-            a{
-                font-size: 2rem;
-                .i-footer{
-                    margin: 0%;
-                }
-                img{
-                    width: 15%;
-                }
-            }
-        }
-    }
     }
 }

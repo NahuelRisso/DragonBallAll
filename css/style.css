@@ -15,15 +15,14 @@
   font-family: "dragonBallText";
   src: url(../assets/fonts/Saiyan-Sans\ Right\ Oblique.ttf);
 }
-header h1 {
+h1 {
   font-family: "DragonBalltitle";
-  font-size: 8rem;
+  font-size: 7rem;
   background: #ccc;
-  background: linear-gradient(to right, #ff0800, #ff0800, #ff7b00, #ff7b00, #ff0800);
+  background: linear-gradient(to right, #ff0800, #ff7b00, #ff7b00, #ff7b00, #ff0800);
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  margin-top: 2%;
 }
 
 h3, .articulo-dos-index section h2, .articulo-uno-index section h2 {
@@ -40,7 +39,7 @@ h3, .articulo-dos-index section h2, .articulo-uno-index section h2 {
 
 footer section div a, .articulo-uno-index section p {
   font-family: "DragonBallText";
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #008cd0;
 }
 
@@ -50,18 +49,6 @@ footer section div a, .articulo-uno-index section p {
   color: #008cd0;
 }
 
-header nav div ul li a {
-  font-family: "DragonBallH";
-  font-size: 3.7rem;
-  color: #008cd0 !important;
-}
-
-header nav div ul li .dropdown-menu .dropdown-item {
-  font-family: "DragonBallH";
-  font-size: 3rem;
-  color: #008cd0 !important;
-}
-
 body {
   background-color: #000000;
 }
@@ -69,12 +56,8 @@ body {
 header {
   background-image: url(../assets/img/banner.jpg);
   background-size: cover;
-  height: 520px;
-}
-iframe {
-  width: 15%;
-  height: 80px;
-  margin-top: 2%;
+  background-position-x: center;
+  height: 660px;
 }
 
 .articulo-uno-index {
@@ -128,114 +111,127 @@ footer section {
 footer section div a .i-footer {
   margin-left: 17%;
 }
-footer section div a img {
-  width: 100%;
+
+header section div .bg-dark {
+  background-color: #80808000 !important;
+  display: flex;
+  flex-direction: column;
+}
+header section div nav a {
+  font-weight: 900;
+  font-size: xxx-large;
+}
+header section div nav a .nav-img-logo {
+  width: 300px;
+  height: 150px;
+}
+header section div nav .dropdown-menu {
+  background-color: #ffffff00;
+  border: none;
+}
+header section div nav .dropdown-item {
+  background-color: #ffffff00 !important;
+  color: #008cd0;
+  font-weight: 600;
+}
+header section div nav .dropdown-item:hover {
+  color: #ff0800;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+  color: #008cd0;
+}
+.navbar-dark .navbar-nav .active > .nav-link:hover, .navbar-dark .navbar-nav .nav-link.active:hover, .navbar-dark .navbar-nav .nav-link.show:hover, .navbar-dark .navbar-nav .show > .nav-link:hover {
+  color: #ff0800;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #008cd0;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ff0800;
+}
+
+/*Media Query de Boostrap*/
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    flex-flow: wrap;
+  }
 }
 
 /* MediasQuery Movile */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
   header {
-    background-image: url(../assets/img/banner2.jpg);
-    height: 1117px;
     background-position-x: center;
+    height: 900px;
   }
-}
-header h1 {
-  font-size: 6rem;
-  margin-top: 600px;
-}
-
-@media only screen and (max-width: 576px) {
-  iframe {
-    width: 55%;
-    margin-top: 0%;
+  header section div .bg-dark {
+    flex-direction: row;
   }
-}
-
-@media only screen and (max-width: 576px) {
-  .articulo-uno-index {
-    background-position-x: right;
+  header section div nav a {
+    font-weight: 900;
+    font-size: 40px;
+    padding-left: 0% !important;
   }
-  .articulo-uno-index section h2 {
-    font-size: 4rem;
-  }
-  .articulo-uno-index section p {
-    font-size: 2rem;
-    color: #18ccd7;
+  header section div nav .dropdown-item {
+    color: #ff0800;
+    background-color: #fdff036e !important;
   }
 }
 
-@media only screen and (max-width: 576px) {
-  .articulo-dos-index section h2 {
-    font-size: 4rem;
-  }
-  .articulo-dos-index section .card {
-    width: auto;
-    height: auto;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  footer section div a {
-    font-size: 2rem;
-  }
-  footer section div a .i-footer {
-    margin: 0%;
-  }
-  footer section div a img {
-    width: 15%;
-  }
-}
-
-header .bg-primary {
-  background-color: #007bff00 !important;
-}
-header nav a .img-logo {
-  width: 230px;
-}
-header nav div ul li {
-  margin: 0% 7%;
-}
-header nav div ul li a:hover {
-  color: #ff0800 !important;
-}
-header nav div ul li .dropdown-menu {
-  background-color: #0000ff00 !important;
-}
-header nav div ul li .dropdown-menu:hover {
-  background-color: #0000ff00 !important;
-}
-header nav div ul li .dropdown-menu .dropdown-item:hover {
-  background-color: #0000ff00 !important;
-  color: #ff0800 !important;
-}
-
-.bg-dark {
-  background-color: #343a4000 !important;
-}
-
-/* MediasQuery Movile */
-@media only screen and (max-width: 576px) {
-  header nav a .img-logo {
-    width: 147px;
-  }
-  header nav div ul li a {
-    font-size: 2.5rem;
-  }
-  header nav div ul li .dropdown-item {
-    font-size: 2rem !important;
-  }
-}
-
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
   .navbar-dark .navbar-toggler {
-    border-color: #008dd1;
+    border: solid 4px #01d9da;
+    width: 80px;
+    height: 55px;
   }
 }
 
-@media only screen and (max-width: 576px) {
-  .bg-dark {
-    background-color: #343a4073 !important;
+/*MediasQuery Tablet*/
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  header {
+    background-position-x: center;
+    height: 900px;
+  }
+  header section div .bg-dark {
+    flex-direction: row;
+  }
+  header section div nav a {
+    font-weight: 900;
+    font-size: 40px;
+    padding-left: 0% !important;
+  }
+  header section div nav .dropdown-item {
+    color: #ff0800;
+    background-color: #fdff036e !important;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .navbar-dark .navbar-toggler {
+    border: solid 4px #01d9da;
+    width: 80px;
+    height: 55px;
+  }
+}
+
+/* MediasQuery Mediano hasta Desktop*/
+@media only screen and (min-width: 992px) and (max-width: 1185px) {
+  header {
+    background-position-x: center;
+    height: 594px;
+  }
+  header section div .bg-dark {
+    background-color: #80808000 !important;
+  }
+  header section div nav a {
+    font-weight: 900;
+    font-size: 40px;
+    padding-left: 0% !important;
+  }
+  header section div nav .dropdown-item {
+    color: #ff0800;
+    background-color: #fdff036e !important;
   }
 }
 
@@ -248,16 +244,14 @@ footer {
   margin-top: 1%;
 }
 footer a img {
-  width: 50%;
+  width: 100%;
 }
 
 /* MediasQuery Movile */
-@media only screen and (max-width: 576px) {
-  footer a img {
-    width: 50%;
-  }
-}
-
+/* MediasQuery Movile Medium */
+/* MediasQuery Tablet */
+/* MediasQuery Tablet grande */
+/* MediasQuery Final*/
 /*Background de main*/
 main {
   overflow: hidden;
