@@ -1,12 +1,21 @@
 header{
+    padding: 0% !important;
+    margin: 0% !important;
     section{
+        padding: 0% !important;
+        margin: 0% !important;
         div{
+            padding: 0% !important;
+            margin: 0% !important;
             .bg-dark{
                 background-color: #80808000 !important;
                 display: flex;
                 flex-direction: column;
+                margin: 0%;
             }
             nav{
+                padding: 0% !important;
+                margin: 0% !important;
                 a{
                     .nav-img-logo{
                         width: 300px;
@@ -55,7 +64,7 @@ header{
 header{
     @media only screen and (max-width:768px){
         background-position-x: center;
-        height:775px;
+        height:875px;
         section{
             div{
                 .bg-dark{
@@ -68,7 +77,7 @@ header{
                             height: 150px;
                         }
                         font-weight: 900;
-                        font-size: 35px;
+                        font-size: 30px;
                         padding-left: 0% !important;
                     }
                     .dropdown-menu{
@@ -87,7 +96,8 @@ header{
     @media only screen and (max-width:768px){
         border: solid 4px #01d9da;
         width: 80px;
-        height: 55px;
+        height: 80px;
+        margin-right: 7%;
     }
 }
 
@@ -121,7 +131,8 @@ header{
     @media only screen and (min-width:769px) and (max-width:991px){
         border: solid 4px #01d9da;
         width: 80px;
-        height: 55px;
+        height: 80px;
+        margin-right: 7%;
     }
 }
 
