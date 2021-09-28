@@ -71,3 +71,59 @@ footer{
         }
     }
 }
+/* MediasQuery Movile */ 
+
+h1{
+    @media only screen and (max-width:768px){
+        font-size: 2rem;      
+    }
+}
+.articulo-uno-index{
+    @media only screen and (max-width:768px){
+    background-image: url(../assets/img/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    section{
+        display: flex;
+        h2{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 1rem;
+            margin-left: 1%;
+        }
+    }
+  }
+}
+.articulo-dos-index{ 
+    @media only screen and (max-width:768px){
+    section{
+        h2{
+            font-size: 1.5rem;
+            text-align: center;
+        } 
+        .card{
+            margin: 10% 0%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 28rem;
+            height: 660px;
+            .card-img-1{
+                width: auto;
+            }
+            .card-img-2{
+                width: auto;
+            }
+            .card-img-3{
+                width: auto;
+            }
+            .card-img-4{
+                width: auto;
+                }
+            } 
+        }
+    }
+}
