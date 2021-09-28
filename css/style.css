@@ -17,18 +17,12 @@
 }
 h1 {
   font-family: "DragonBalltitle";
-  font-size: 7rem;
+  font-size: 8rem;
   background: #ccc;
   background: linear-gradient(to right, #ff0800, #ff7b00, #ff7b00, #ff7b00, #ff0800);
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-}
-
-h3, .articulo-dos-index section h2, .articulo-uno-index section h2 {
-  font-family: "DragonBalltitle";
-  font-size: 8rem;
-  color: #ff7b00;
 }
 
 h3, .articulo-dos-index section h2, .articulo-uno-index section h2 {
@@ -101,15 +95,58 @@ header {
   width: 100%;
 }
 
-footer {
-  background-color: #000000 !important;
+/* MediasQuery Movile */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 5rem;
+  }
 }
-footer section {
-  display: flex;
-  justify-content: space-between;
+
+@media only screen and (max-width: 768px) {
+  .articulo-uno-index {
+    background-image: url(../assets/img/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+  }
+  .articulo-uno-index section {
+    display: flex;
+  }
+  .articulo-uno-index section h2 {
+    font-size: 4rem;
+  }
+  .articulo-uno-index section p {
+    font-size: 3rem;
+    text-align: center;
+  }
 }
-footer section div a .i-footer {
-  margin-left: 17%;
+
+@media only screen and (max-width: 768px) {
+  .articulo-dos-index section h2 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .articulo-dos-index section .card {
+    margin: 10% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+  }
+  .articulo-dos-index section .card .card-img-1 {
+    width: 100%;
+  }
+  .articulo-dos-index section .card .card-img-2 {
+    width: 100%;
+  }
+  .articulo-dos-index section .card .card-img-3 {
+    width: 100%;
+  }
+  .articulo-dos-index section .card .card-img-4 {
+    width: 100%;
+  }
 }
 
 header section div .bg-dark {
@@ -163,14 +200,14 @@ header section div nav .dropdown-item:hover {
 @media only screen and (max-width: 768px) {
   header {
     background-position-x: center;
-    height: 900px;
+    height: 775px;
   }
   header section div .bg-dark {
     flex-direction: row;
   }
   header section div nav a {
     font-weight: 900;
-    font-size: 40px;
+    font-size: 35px;
     padding-left: 0% !important;
   }
   header section div nav a .nav-img-logo {
@@ -179,7 +216,7 @@ header section div nav .dropdown-item:hover {
   }
   header section div nav .dropdown-item {
     color: #ff0800;
-    background-color: #fdff036e !important;
+    background-color: #ffff0300 !important;
   }
 }
 
@@ -240,18 +277,49 @@ header section div nav .dropdown-item:hover {
 }
 
 footer {
-  background-color: #fff;
+  background-color: #000000 !important;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-top: 1%;
 }
-footer a img {
+footer section {
+  display: flex;
+  justify-content: space-between;
+}
+footer section div a .i-footer {
+  margin-left: 17%;
+}
+footer section div a img {
   width: 100%;
 }
 
 /* MediasQuery Movile */
+@media only screen and (max-width: 768px) {
+  footer {
+    background-color: #000000 !important;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1%;
+  }
+  footer section {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer section div a {
+    font-size: 3rem;
+  }
+  footer section div a .i-footer {
+    margin-left: 0%;
+  }
+  footer section div a img {
+    width: auto;
+  }
+}
+
 /* MediasQuery Movile Medium */
 /* MediasQuery Tablet */
 /* MediasQuery Tablet grande */

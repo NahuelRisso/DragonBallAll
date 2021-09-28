@@ -56,26 +56,12 @@ h1{
         } 
     }
 }
-footer{
-    background-color: #000000!important ;
-    section{
-        display: flex;
-        justify-content: space-between;
-        div{
-            a{
-                @extend %p;
-                .i-footer{
-                    margin-left: 17%;
-                }
-            }
-        }
-    }
-}
+
 /* MediasQuery Movile */ 
 
 h1{
     @media only screen and (max-width:768px){
-        font-size: 2rem;      
+        font-size: 5rem;      
     }
 }
 .articulo-uno-index{
@@ -88,11 +74,11 @@ h1{
     section{
         display: flex;
         h2{
-            font-size: 1.5rem;
+            font-size: 4rem;
         }
         p{
-            font-size: 1rem;
-            margin-left: 1%;
+            font-size: 3rem;
+            text-align: center;
         }
     }
   }
@@ -101,7 +87,7 @@ h1{
     @media only screen and (max-width:768px){
     section{
         h2{
-            font-size: 1.5rem;
+            font-size: 4rem;
             text-align: center;
         } 
         .card{
@@ -109,19 +95,19 @@ h1{
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 28rem;
-            height: 660px;
+            width: auto;
+            height: auto;
             .card-img-1{
-                width: auto;
+                width: 100%;
             }
             .card-img-2{
-                width: auto;
+                width: 100%;
             }
             .card-img-3{
-                width: auto;
+                width: 100%;
             }
             .card-img-4{
-                width: auto;
+                width: 100%;
                 }
             } 
         }
