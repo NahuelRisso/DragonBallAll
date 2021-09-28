@@ -66,18 +66,14 @@ h1{
 }
 .articulo-uno-index{
     @media only screen and (max-width:768px){
-    background-image: url(../assets/img/fondo2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-x: center;
+        background-position-x: right;
     section{
         display: flex;
         h2{
             font-size: 5rem;
         }
         p{
-            font-size: 2.5rem;
+            font-size: 1.5rem;
             text-align: center;
         }
     }
