@@ -10,8 +10,11 @@ main{
     background-position-x: center;
 }
 /*Fin Background de main*/
+.container-h1-sagas{
+    margin: 0%
+}
 h3{
-    @extend%h2;
+    @extend%h3;
     color: #ff0800;
     text-decoration: underline;
     margin-top: 5%;
@@ -25,7 +28,7 @@ h3{
         div{
             a{
                 img{
-                    width: 50%;
+                    width: 200px;
                     margin-left: 20%;
                 }
             }
@@ -45,7 +48,7 @@ h3{
                 top: 85%;
                 img{
                     width: 100px;
-                    margin-right: 10px;
+                    margin-left: 380%;
                     background-color: #a23a1b8f;
                     border-radius: 30%;
                 }
@@ -60,11 +63,11 @@ h3{
     display: flex;
     justify-content: center;
     .carousel{
-    width: 70%;
+    width: 50%;
     .carousel-inner{
-        display: flex;
-        justify-content: space-around;
         .card{
+            width: 100%;
+            height: 600px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -143,3 +146,141 @@ td{
     }
 }
 /*Fin de Todos los logos Dragon ball*/
+
+
+/*Mediasquery Movile*/
+.container-sagas{
+    @media only screen and (max-width:768px){
+    background-size: contain;
+    background-position-x: right;
+    }
+}
+
+.article-redireccion{
+    @media only screen and (max-width:768px){
+    section{
+        align-items: center;
+        margin-top: 5%;
+        div{
+            a{
+                img{
+                    width: 200px;
+                    margin-left: 20%;
+                    margin-top: 15%;
+                }
+            }
+        }
+    }
+}
+}
+
+.sagas-db{
+    @media only screen and (max-width:768px){
+    section{
+        div{
+            display: flex;
+            justify-content: center;
+            .img-logo-db{
+                width: 100%;
+                margin: 10% 1%;
+            }
+        }
+    }
+}
+}
+
+.div-contenedor-carrucel{
+    @media only screen and (max-width:768px){
+    display: flex;
+    justify-content: center;
+    .carousel{
+    width: 100%;
+    .carousel-inner{
+        .carousel-item{
+        .card{
+            width: 100%;
+            height: 440px;
+            .img-card-vertical{
+                width: 60%;
+            }
+            img{
+                width: 100%
+            }
+        }
+    }
+    }
+}
+}
+}
+
+.saga-img-sagas{
+    @media only screen and (max-width:768px){
+    img{
+        width: 100%;
+    }
+}
+}
+
+h3{
+    @media only screen and (max-width:768px){
+  font-size: 2.5rem;
+}   
+}
+
+table{
+    @media only screen and (max-width:768px){
+    border: solid 1px #008cd0;
+    width: 98%;
+    border-collapse: collapse;
+    margin: 1% 0%;
+    background-color: #ffffffa8;
+}
+}
+ tr{
+    @media only screen and (max-width:768px){
+    border: solid 1px #008cd0;
+}
+}
+th{
+    @media only screen and (max-width:768px){
+    border: solid 1px #008cd0;
+    text-align: center;
+    font-family: 'DragonBallText';
+    color: #008cd0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    height: 125px;
+}
+}
+td{
+    @media only screen and (max-width:768px){
+    border: solid 1px #008cd0;
+    text-align: center;
+    font-family: 'DragonBallText';
+    color: #008cd0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    height: 125px;
+}
+}
+
+.arrow-up{
+    @media only screen and (max-width:768px){
+    section{
+        div{
+            display: flex;
+            justify-content: flex-end;
+            a{
+                position: fixed;
+                top: 85%;
+                img{
+                    width: 20px;
+                    margin-left: 70%;
+                    background-color: #a23a1b8f;
+                    border-radius: 30%;
+                }
+            }
+        }
+    }
+}
+}

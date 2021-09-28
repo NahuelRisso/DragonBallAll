@@ -25,9 +25,15 @@ h1 {
   -webkit-background-clip: text;
 }
 
-h3, .articulo-dos-index section h2, .articulo-uno-index section h2 {
+.articulo-dos-index section h2, .articulo-uno-index section h2 {
   font-family: "DragonBallH";
   font-size: 7rem;
+  color: #ff0800;
+}
+
+h3 {
+  font-family: "DragonBallH";
+  font-size: 6.7rem;
   color: #ff0800;
 }
 
@@ -305,7 +311,6 @@ header section div nav .dropdown-item:hover {
   }
   header section div nav .dropdown-item {
     color: #ff0800;
-    background-color: #fdff036e !important;
   }
 }
 
@@ -333,7 +338,6 @@ header section div nav .dropdown-item:hover {
   }
   header section div nav .dropdown-item {
     color: #ff0800;
-    background-color: #fdff036e !important;
   }
 }
 
@@ -452,6 +456,10 @@ main {
 }
 
 /*Fin Background de main*/
+.container-h1-sagas {
+  margin: 0%;
+}
+
 h3 {
   color: #ff0800;
   text-decoration: underline;
@@ -465,7 +473,7 @@ h3 {
   margin-top: 5%;
 }
 .article-redireccion section div a img {
-  width: 50%;
+  width: 200px;
   margin-left: 20%;
 }
 
@@ -481,7 +489,7 @@ h3 {
 }
 .arrow-up section div a img {
   width: 100px;
-  margin-right: 10px;
+  margin-left: 380%;
   background-color: #a23a1b8f;
   border-radius: 30%;
 }
@@ -493,13 +501,11 @@ h3 {
   justify-content: center;
 }
 .div-contenedor-carrucel .carousel {
-  width: 70%;
-}
-.div-contenedor-carrucel .carousel .carousel-inner {
-  display: flex;
-  justify-content: space-around;
+  width: 50%;
 }
 .div-contenedor-carrucel .carousel .carousel-inner .card {
+  width: 100%;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -576,6 +582,126 @@ td {
 }
 
 /*Fin de Todos los logos Dragon ball*/
+/*Mediasquery Movile*/
+@media only screen and (max-width: 768px) {
+  .container-sagas {
+    background-size: contain;
+    background-position-x: right;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .article-redireccion section {
+    align-items: center;
+    margin-top: 5%;
+  }
+  .article-redireccion section div a img {
+    width: 200px;
+    margin-left: 20%;
+    margin-top: 15%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sagas-db section div {
+    display: flex;
+    justify-content: center;
+  }
+  .sagas-db section div .img-logo-db {
+    width: 100%;
+    margin: 10% 1%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .div-contenedor-carrucel {
+    display: flex;
+    justify-content: center;
+  }
+  .div-contenedor-carrucel .carousel {
+    width: 100%;
+  }
+  .div-contenedor-carrucel .carousel .carousel-inner .carousel-item .card {
+    width: 100%;
+    height: 440px;
+  }
+  .div-contenedor-carrucel .carousel .carousel-inner .carousel-item .card .img-card-vertical {
+    width: 60%;
+  }
+  .div-contenedor-carrucel .carousel .carousel-inner .carousel-item .card img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .saga-img-sagas img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  table {
+    border: solid 1px #008cd0;
+    width: 98%;
+    border-collapse: collapse;
+    margin: 1% 0%;
+    background-color: #ffffffa8;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  tr {
+    border: solid 1px #008cd0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  th {
+    border: solid 1px #008cd0;
+    text-align: center;
+    font-family: "DragonBallText";
+    color: #008cd0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    height: 125px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  td {
+    border: solid 1px #008cd0;
+    text-align: center;
+    font-family: "DragonBallText";
+    color: #008cd0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    height: 125px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .arrow-up section div {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .arrow-up section div a {
+    position: fixed;
+    top: 85%;
+  }
+  .arrow-up section div a img {
+    width: 20px;
+    margin-left: 70%;
+    background-color: #a23a1b8f;
+    border-radius: 30%;
+  }
+}
+
 /*Background de main*/
 .container-musica {
   background-image: url(../assets/img/chino4.jpg);
