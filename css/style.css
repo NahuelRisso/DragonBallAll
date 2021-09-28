@@ -173,6 +173,10 @@ header section div nav .dropdown-item:hover {
     font-size: 40px;
     padding-left: 0% !important;
   }
+  header section div nav a .nav-img-logo {
+    width: 150px;
+    height: 100px;
+  }
   header section div nav .dropdown-item {
     color: #ff0800;
     background-color: #fdff036e !important;
