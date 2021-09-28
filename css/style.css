@@ -627,9 +627,10 @@ td {
   }
   .div-contenedor-carrucel .carousel .carousel-inner .carousel-item .card .img-card-vertical {
     width: 60%;
+    height: 275px;
   }
   .div-contenedor-carrucel .carousel .carousel-inner .carousel-item .card img {
-    width: 100%;
+    width: 70%;
   }
 }
 
@@ -693,10 +694,11 @@ td {
   .arrow-up section div a {
     position: fixed;
     top: 85%;
+    z-index: 10;
   }
   .arrow-up section div a img {
-    width: 20px;
-    margin-left: 70%;
+    width: 50px;
+    margin-left: 23%;
     background-color: #a23a1b8f;
     border-radius: 30%;
   }

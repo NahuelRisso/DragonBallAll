@@ -202,9 +202,10 @@ td{
             height: 440px;
             .img-card-vertical{
                 width: 60%;
+                height: 275px;
             }
             img{
-                width: 100%
+                width: 70%
             }
         }
     }
@@ -273,9 +274,10 @@ td{
             a{
                 position: fixed;
                 top: 85%;
+                z-index: 10;
                 img{
-                    width: 20px;
-                    margin-left: 70%;
+                    width: 50px;
+                    margin-left: 23%;
                     background-color: #a23a1b8f;
                     border-radius: 30%;
                 }
