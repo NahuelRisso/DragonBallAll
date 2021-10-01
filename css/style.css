@@ -313,7 +313,7 @@ header section div nav .dropdown-item:hover {
 
 @media only screen and (max-width: 768px) {
   .navbar-dark .navbar-toggler {
-    border: solid 4px #01d9da;
+    border: solid 4px #ff7b00;
     width: 80px;
     height: 80px;
     margin-right: 7%;
@@ -342,7 +342,7 @@ header section div nav .dropdown-item:hover {
 
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .navbar-dark .navbar-toggler {
-    border: solid 4px #01d9da;
+    border: solid 4px #ff7b00;
     width: 80px;
     height: 80px;
     margin-right: 7%;
