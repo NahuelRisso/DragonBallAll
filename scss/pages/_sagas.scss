@@ -3,7 +3,7 @@ main{
     overflow: hidden;
 }
 .container-sagas{
-    background-image: url(../assets/img/fondo3.jpg);
+    background-image: url(../assets/img/fondo7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -46,9 +46,9 @@ h3{
             a{
                 position: fixed;
                 top: 85%;
+                right: 1%;
                 img{
                     width: 100px;
-                    margin-left: 380%;
                     background-color: #a23a1b8f;
                     border-radius: 30%;
                 }
@@ -150,14 +150,14 @@ td{
 
 /*Mediasquery Movile*/
 .container-sagas{
-    @media only screen and (max-width:768px){
+    @media only screen and (max-width:767px){
     background-size: contain;
-    background-position-x: right;
+    background-position-y: center;
     }
 }
 
 .article-redireccion{
-    @media only screen and (max-width:768px){
+    @media only screen and (max-width:767px){
     section{
         align-items: center;
         margin-top: 5%;
@@ -175,7 +175,7 @@ td{
 }
 
 .sagas-db{
-    @media only screen and (max-width:768px){
+    @media only screen and (max-width:767px){
     section{
         div{
             display: flex;
@@ -190,7 +190,7 @@ td{
 }
 
 .div-contenedor-carrucel{
-    @media only screen and (max-width:768px){
+    @media only screen and (max-width:767px){
     display: flex;
     justify-content: center;
     .carousel{
@@ -215,7 +215,7 @@ td{
 }
 
 .saga-img-sagas{
-    @media only screen and (max-width:768px){
+    @media only screen and (max-width:767px){
     img{
         width: 100%;
     }
@@ -223,13 +223,13 @@ td{
 }
 
 h3{
-    @media only screen and (max-width:768px){
+    @media only screen and (max-width:767px){
   font-size: 2.5rem;
 }   
 }
 
 table{
-    @media only screen and (max-width:768px){
+    @media only screen and (max-width:767px){
     border: solid 1px #008cd0;
     width: 98%;
     border-collapse: collapse;
@@ -238,23 +238,23 @@ table{
 }
 }
  tr{
-    @media only screen and (max-width:768px){
+    @media only screen and (max-width:767px){
     border: solid 1px #008cd0;
 }
 }
 th{
-    @media only screen and (max-width:768px){
+    @media only screen and (max-width:767px){
     border: solid 1px #008cd0;
     text-align: center;
     font-family: 'DragonBallText';
     color: #008cd0;
-    font-size: 1rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     height: 125px;
 }
 }
 td{
-    @media only screen and (max-width:768px){
+    @media only screen and (max-width:767px){
     border: solid 1px #008cd0;
     text-align: center;
     font-family: 'DragonBallText';
@@ -266,7 +266,7 @@ td{
 }
 
 .arrow-up{
-    @media only screen and (max-width:768px){
+    @media only screen and (max-width:767px){
     section{
         div{
             display: flex;
@@ -277,7 +277,171 @@ td{
                 z-index: 10;
                 img{
                     width: 50px;
-                    margin-left: 23%;
+                    background-color: #a23a1b8f;
+                    border-radius: 30%;
+                }
+            }
+        }
+    }
+}
+}
+/*Mediasquery Tablet*/
+h1{
+    @media only screen and (min-width:768px)and (max-width:991px){
+    font-size: 6.5rem;
+}
+}
+.container-sagas{
+    @media only screen and (min-width:768px)and (max-width:991px){
+    background-size: contain;
+    background-position-y: center;
+    }
+}
+
+.article-redireccion{
+    @media only screen and (min-width:768px)and (max-width:991px){
+    section{
+        align-items: center;
+        margin-top: 5%;
+        div{
+            a{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 400px;
+                    margin-left: 0%;
+                    margin-top: 15%;
+                }
+            }
+        }
+    }
+}
+}
+
+.sagas-db{
+    @media only screen and (min-width:768px)and (max-width:991px){
+    section{
+        div{
+            display: flex;
+            justify-content: center;
+            .img-logo-db{
+                width: 100%;
+                margin: 10% 1%;
+            }
+        }
+    }
+}
+}
+
+.div-contenedor-carrucel{
+    @media only screen and (min-width:768px)and (max-width:991px){
+    display: flex;
+    justify-content: center;
+    .carousel{
+    width: 100%;
+    .carousel-inner{
+        .carousel-item{
+        .card{
+            width: 100%;
+            height: 700px;
+            .img-card-vertical{
+                width: 100%;
+                height: 530px;
+            }
+            img{
+                width: 100%
+            }
+        }
+    }
+    }
+}
+}
+}
+
+.saga-img-sagas{
+    @media only screen and (min-width:768px)and (max-width:991px){
+    img{
+        width: 100%;
+    }
+}
+}
+
+h3{
+    @media only screen and (min-width:768px)and (max-width:991px){
+  font-size: 5.5rem;
+}   
+}
+
+table{
+    @media only screen and (min-width:768px)and (max-width:991px){
+    border: solid 1px #008cd0;
+    width: 98%;
+    border-collapse: collapse;
+    margin: 1% 0%;
+    background-color: #ffffffa8;
+}
+}
+ tr{
+    @media only screen and (min-width:768px)and (max-width:991px){
+    border: solid 1px #008cd0;
+}
+}
+th{
+    @media only screen and (min-width:768px)and (max-width:991px){
+    border: solid 1px #008cd0;
+    text-align: center;
+    font-family: 'DragonBallText';
+    color: #008cd0;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    height: 125px;
+}
+}
+td{
+    @media only screen and (min-width:768px)and (max-width:991px){
+    border: solid 1px #008cd0;
+    text-align: center;
+    font-family: 'DragonBallText';
+    color: #008cd0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    height: 125px;
+}
+}
+
+.arrow-up{
+    @media only screen and (min-width:768px)and (max-width:991px){
+    section{
+        div{
+            display: flex;
+            justify-content: flex-end;
+            a{
+                position: fixed;
+                top: 85%;
+                z-index: 10;
+                img{
+                    width: 75px;
+                    background-color: #a23a1b8f;
+                    border-radius: 30%;
+                }
+            }
+        }
+    }
+}
+}
+/*Mediasquery Desktop*/
+.arrow-up{
+    @media only screen and (min-width:992px)and (max-width:1875px){
+    section{
+        div{
+            display: flex;
+            justify-content: flex-end;
+            a{
+                position: fixed;
+                top: 85%;
+                z-index: 10;
+                img{
+                    width: 75px;
                     background-color: #a23a1b8f;
                     border-radius: 30%;
                 }

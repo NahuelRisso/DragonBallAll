@@ -1,16 +1,27 @@
 /*Background de main*/
 .container-musica{
-    background-image: url(../assets/img/chino4.jpg);
+    background-image: url(../assets/img/fondo2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
 }
 /*Fin Background de main*/
 
 /*redireccion a sub paginas*/
 .img-musica-direccion{
-    width: 50%;
-    margin:5% 0% 10% 20%;
+    section{
+        div{
+            a{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 50%;
+                    margin-top:5%;
+                }
+            }
+        }
+    }
 }
 /*fin de redireccion a sub paginas*/
 /*Img Opening y Ending*/
@@ -44,10 +55,78 @@
             }
             iframe{
                 margin-bottom: 5%;
+                width: 600px;
+                height: 365px;
             }
         }
     }
 }
 /*Fin de P y Videos*/
+
+/*MediasQueri tablet Grande*/
+
+.conteiner-musica{
+    @media only screen and (min-width:992px)and (max-width:1200px){
+    section{
+        div{
+            p{
+            }
+            iframe{
+                margin-bottom: 5%;
+                width: 500px;
+                height: 270px;
+            }
+        }
+    }
+}
+}
+/*MediasQueri Movile*/
+.conteiner-musica{
+    @media only screen and (max-width:991px){
+    section{
+        div{
+            p{
+            }
+            iframe{
+                margin-bottom: 5%;
+                width: 330px;
+                height: 210px;
+            }
+        }
+    }
+}
+}
+.container-musica{
+    @media only screen and (max-width:991px){
+        background-size: contain;
+}
+}
+#opening{
+    @media only screen and (max-width:991px){
+        section{
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 95%;
+                }
+            }
+        }
+}
+}
+#ending{
+    @media only screen and (max-width:991px){
+        section{
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 95%;
+                }
+            }
+        }
+}
+}
+
 
 

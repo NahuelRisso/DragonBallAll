@@ -18,6 +18,13 @@
             }
         }
     }
+    .article-videojuegos-width{
+        section{
+            .col-lg-1{
+                width: auto;
+            }
+        }
+    }
     #collapseFour{
         .card-body{
         display: flex;
@@ -55,11 +62,18 @@
             }
     }
     .Videojuegos-acordeon-img{
-        width: 35%;
+        width: 55%;
         height: 500px;
     }
     .card-body{
             display: flex;
             align-items: center;
     }
+}
+/*MediasQuery Tablet Grande*/
+.Videojuegos-acordeon-img{
+    @media only screen and (min-width:992px)and (max-width:1199px){
+    width: 35%;
+    height: 500px;
+}
 }
