@@ -10,7 +10,7 @@ footer{
         justify-content: space-between;
         div{
             a{
-                @extend %p;
+                @extend %pFooter;
                 .i-footer{
                     margin-left: 17%;
                 }

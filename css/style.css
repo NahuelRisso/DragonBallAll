@@ -37,7 +37,15 @@ h3 {
   color: #ff0800;
 }
 
-footer section div a, .articulo-uno-index section p {
+.articulo-uno-index section p {
+  font-family: "DragonBallText";
+  font-size: 3rem;
+  color: #ff0800;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: #000000;
+}
+
+footer section div a {
   font-family: "DragonBallText";
   font-size: 3rem;
   color: #ff0800;
@@ -123,7 +131,7 @@ header {
     font-size: 3.5rem;
   }
   .articulo-uno-index section p {
-    font-size: 1.5rem;
+    font-size: 3rem;
     text-align: center;
   }
 }
