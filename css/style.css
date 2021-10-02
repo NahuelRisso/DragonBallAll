@@ -62,14 +62,14 @@ body {
 }
 
 header {
-  background-image: url(../assets/img/fondo1.jpg);
+  background-image: url(../assets/img/fondo1.webp);
   background-size: cover;
   background-position-x: center;
   height: 660px;
 }
 
 .articulo-uno-index {
-  background-image: url(../assets/img/fondo6.jpg);
+  background-image: url(../assets/img/fondo6.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -484,7 +484,7 @@ main {
 }
 
 .container-sagas {
-  background-image: url(../assets/img/fondo7.jpg);
+  background-image: url(../assets/img/fondo7.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -890,7 +890,7 @@ td {
 
 /*Background de main*/
 .container-musica {
-  background-image: url(../assets/img/fondo2.png);
+  background-image: url(../assets/img/fondo2.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -989,7 +989,7 @@ td {
 }
 
 .container-videojuegos {
-  background-image: url(../assets/img/fondo4.jpg);
+  background-image: url(../assets/img/fondo4.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position-x: center;
@@ -1078,10 +1078,13 @@ td {
   .container-videojuegos article section .div-top-videojuegos a {
     font-size: 1rem;
   }
+  .container-videojuegos .card-body {
+    flex-wrap: wrap;
+  }
 }
 
 .main-personajes {
-  background-image: url(../assets/img/fondo5.jpg);
+  background-image: url(../assets/img/fondo5.webp);
   background-size: 45%;
   background-repeat: no-repeat;
   background-attachment: fixed;

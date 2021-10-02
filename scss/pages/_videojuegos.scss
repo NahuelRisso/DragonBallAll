@@ -1,5 +1,5 @@
 .container-videojuegos{
-     background-image: url(../assets/img/fondo4.jpg);
+     background-image: url(../assets/img/fondo4.webp);
      background-repeat: no-repeat;
      background-attachment: fixed;
      background-position-x: center;
@@ -118,5 +118,8 @@
             }
         }
     }
+    .card-body{
+        flex-wrap: wrap;
+}
  }
 }

@@ -2,7 +2,7 @@ body{
     background-color: #000000;
 }
 header{
-    background-image: url(../assets/img/fondo1.jpg);
+    background-image: url(../assets/img/fondo1.webp);
     background-size: cover;
     background-position-x: center;
     height: 660px;
@@ -11,7 +11,7 @@ h1{
     @extend %h1;       
 }
 .articulo-uno-index{
-    background-image: url(../assets/img/fondo6.jpg);
+    background-image: url(../assets/img/fondo6.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
