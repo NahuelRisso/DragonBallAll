@@ -15,6 +15,9 @@
             height: 500px;
         }
     }
+    h2{
+        @extend %h2Personajes
+    }
 }
 .carrucel-item-personajes{
     margin-left: 12%;
