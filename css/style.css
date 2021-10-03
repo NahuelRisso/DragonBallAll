@@ -1094,6 +1094,7 @@ td {
 .main-personajes button {
   width: 125px;
   margin-top: 5%;
+  border: solid 2px #ff0800;
 }
 .main-personajes .modal-body img {
   width: 70% !important;
@@ -1105,7 +1106,7 @@ td {
 }
 
 .container-lista {
-  border: solid 1px grey;
+  border: solid 1px #808080;
   width: 80%;
   margin-top: 1%;
 }
