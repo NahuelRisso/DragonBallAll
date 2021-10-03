@@ -254,8 +254,8 @@ header section div nav a {
   font-size: xxx-large;
 }
 header section div nav a .nav-img-logo {
-  width: 300px;
-  height: 150px;
+  width: 675px;
+  height: 279px;
 }
 header section div nav .dropdown-menu {
   background-color: #ffffff00;
@@ -1094,7 +1094,6 @@ td {
 .main-personajes button {
   width: 125px;
   margin-top: 5%;
-  border: solid 2px #ff0800;
 }
 .main-personajes .modal-body img {
   width: 70% !important;
