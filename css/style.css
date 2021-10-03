@@ -31,6 +31,15 @@ h1 {
   color: #008cd0;
 }
 
+.main-personajes h2 {
+  font-family: "DragonBallH";
+  font-size: 7rem;
+  color: #ff0800;
+  text-align: center;
+  text-decoration: underline;
+  margin: 3% 0%;
+}
+
 h3 {
   font-family: "DragonBallH";
   font-size: 6.7rem;
@@ -1099,7 +1108,6 @@ td {
   width: 70% !important;
   height: 500px;
 }
-
 .carrucel-item-personajes {
   margin-left: 12%;
 }
