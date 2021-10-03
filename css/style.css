@@ -428,6 +428,7 @@ footer section div a img {
   }
   footer section div a img {
     width: 110px;
+    height: auto;
     margin-top: 2%;
   }
 }
@@ -456,6 +457,7 @@ footer section div a img {
   }
   footer section div a img {
     width: auto;
+    height: auto;
   }
 }
 
@@ -484,6 +486,7 @@ footer section div a img {
   }
   footer section div a img {
     width: 100px;
+    height: auto;
   }
 }
 
